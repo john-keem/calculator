@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 400px;
+  height: 800px;
+  border: solid;
+  border-color: black;
+
+}
+
+.display {
+  width: 400px;
+  height: 200px;
+  font-size: 50px;
+}
+
+.buttons,
+.row {
+  width: 400px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.buttons div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+
+  background-color: gray;
+}
