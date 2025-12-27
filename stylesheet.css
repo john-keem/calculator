@@ -5,26 +5,35 @@ body {
 
 #container {
   width: 400px;
-  height: 800px;
+  height: 650px;
   border: solid;
   border-color: black;
-  background-color: ;
+  border-radius: 16px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .display {
-  width: 400px;
-  height: 200px;
+  width: 360px;
+  height: 150px;
   font-size: 50px;
+  border: solid;
+  border-radius: 16px;
+  margin: 20px 0px;
+  background-color: white;
+  padding: 0px 5px;
 }
 
 .buttons,
 .row {
-  width: 400px;
+  width: 360px;
 }
 
 .row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .row1,
@@ -42,8 +51,8 @@ body {
 
 .button {
   box-sizing: border-box;
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   font-size: 24px;
-
+  border-radius: 40px;
 }
